@@ -12,6 +12,6 @@ if [ "$ENABLE_SUBPATH_BASED_ACCESS" = "true" ]; then
   curlCheck "http://localhost:${HOPP_AIO_ALTERNATE_PORT:-80}/backend/ping" || exit 1
 else
   curlCheck "http://localhost:3000" || exit 1
-  curlCheck "http://localhost:3100" || exit 1
-  curlCheck "http://localhost:3170/ping" || exit 1
+  curlCheck "http://localhost:3001" || exit 1
+  curlCheck "http://localhost:3002/ping" || exit 1
 fi
