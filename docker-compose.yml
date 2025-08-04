@@ -108,10 +108,10 @@ services:
         condition: service_healthy
     ports:
       - "3000:3000"
-      - "3100:3100"
-      - "3170:3170"
-      - "3200:3200"
-      - "3080:80"
+      - "3001:3100"
+      - "3002:3170"
+      - "3003:3200"
+      - "3004:80"
 
   # Profile with no database dependency (purely developmental)
   hoppscotch-aio-no-db:
