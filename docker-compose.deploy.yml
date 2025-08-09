@@ -60,7 +60,7 @@ services:
       timeout: 10s
       retries: 30
     ports:
-      - "3000:3000"
+      - "3000:80"
       - "3001:3100"
       - "3002:3170"
     networks:
